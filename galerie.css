@@ -1,0 +1,41 @@
+*{
+    font-family: sekuya;
+}
+
+body {
+    background-color: #A50E0E;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    max-width: 80%;
+    margin: 120px auto;
+    color: aliceblue;
+}
+a {
+    all: unset;
+    background-color: #4e0000;
+    color: aliceblue;
+    padding: 16px 22px 12px;
+    font-size: 1.5rem;
+    border-radius: 999rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a:hover {
+    filter: saturate(800%);
+    transform: scale(1.5);
+}
+
+.ne {
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 163);
+    margin-left: 20px;
+}
+.jo {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 133, 227);
+    margin-right: 20px;
+}
