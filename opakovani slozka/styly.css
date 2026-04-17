@@ -1,0 +1,45 @@
+body 
+    {margin: 0px; /* timhle odstranime bile mezery po stranach stranky */
+}
+
+* {box-sizing: border-box; /* odsazení se přičítá k šířce ale odečítá na vsechno viz hvezdicka */
+    font-family: "source sans 3-regular", sans-serif; /* měníme font, sans serif zatim je jen kdyby se ten font pred nim nenacetl */
+}
+
+a { /* acko je odkaz */
+    all: unset; /* tohle zrusi vsechny vychozi nastaveni vsech acek, jako barvu atd abychom si to mohli nastavit sami */
+}
+
+nav {background-color: #ffb9db; /* barvicka uprostred */
+    height: 45px;
+    }
+
+    .container {
+        width: 1200px; /* sirka */
+        height: 45px; /* vyska */
+        margin: 0px auto; /* zarovnani doprostred */
+        padding: 0 10px 10px; /* prednastaveny odsazeni */
+    }
+
+    #logo {
+        height: 18px;
+        margin-top: 12px;
+        margin-left: 0px;
+    }
+
+    .menu {
+        float: right; /* presunuti odkazu doprava */
+    }
+
+    .menu a {
+        color: #000000;
+        display: inline-block;
+        margin: 13px 25px 0 25px;
+        transition: 0.5s ease;
+    }
+
+    .menu a:hover {
+        background-color: rgb(255, 152, 224);
+        transform: scale(1.2);
+     
+    }
